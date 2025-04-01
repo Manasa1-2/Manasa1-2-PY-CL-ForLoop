@@ -16,9 +16,7 @@ def factorial(n):
     
     # Initialize the result variable to store the factorial value    
     # Iterate through numbers from 1 to n (inclusive)
-
-    # Write your code here
-    
-
-    # Return the calculated factorial value
+    result = 1
+    for i in range(1, n+1):
+        result *= i
     return result
